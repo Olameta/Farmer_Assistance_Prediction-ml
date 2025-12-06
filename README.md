@@ -48,6 +48,16 @@ If the model predicts 1, the system activates:
 -Error-tolerant interaction
 -If 0, a fast standard UI is used.
 
+# Data Analysis Skills Demonstrated
+This project also highlights my data analysis and preprocessing abilities:
+-Cleaning and structuring datasets
+-Feature engineering for ML models
+-Handling categorical and numerical data
+-Exploratory Data Analysis (EDA) using Pandas, NumPy, and Matplotlib
+-Evaluating model performance using confusion matrix, precision, recall, and F1-score
+-Working with standardization, splitting datasets, and simulation
+-These skills support my broader interest in AI, HCI, and applied data science.
+
 # Project Structure
 farmer-assistance-prediction-ml/
  ├── notebooks/
@@ -74,3 +84,4 @@ Farmer Literacy Prediction.ipynb
 Olayiwola Abdussomad
 B.Tech Computer Science, LAUTECH
 Research Focus: HCI + AI Accessibility
+
