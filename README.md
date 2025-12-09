@@ -1,87 +1,35 @@
-# Farmer_Assistance_Prediction_ml
-Machine learning model for predicting farmer interface needs (Voice vs Standard) using HCI-aware features.
+# Adaptive Interface System for Digital Literacy (HCI + Lightweight ML)
+# 🎯 Status: Complete (Simulation & Model Development)
 
-# Farmer Assistance Prediction using Machine Learning
-A Human–Computer Interaction (HCI) driven model to determine when farmers need a voice-based AI interface.
+This project develops a machine learning-driven, Human-Computer Interaction (HCI) solution to enhance accessibility in agricultural technology. It is centered on predicting a farmer's need for a Voice-First AI Assistant based on simulated digital literacy and interaction features.
+The core goal is to build an intelligent, adaptive interface that proactively reduces cognitive load and promotes digital inclusion by seamlessly switching between standard GUI and voice interaction. This demonstrates practical skills in Applied Machine Learning, HCI, and Data-Driven Design.
 
-This project builds a simple and meaningful machine learning system that predicts whether a farmer is likely to struggle with digital interfaces and suggests switching to a Voice-First AI Assistant.
-It demonstrates the intersection of:
-Machine Learning
-Adaptive Interfaces
-Agricultural Technology
-Human-Computer Interaction (HCI)
+# 💡 Core Analytical & Technical Contributions
+This project integrates data analysis, ML modeling, and interface logic:
+Feature Engineering for HCI: Designed and structured a simulated dataset (500 samples) using features directly relevant to human factors like Age, Literacy Level, Error Rate, Task Completion Time to model Digital Literacy as a predictive outcome.
+Interpretable Model Selection: Utilized a Logistic Regression Classifier to predict assistance needs (Voice vs. Standard). The choice of model prioritized interpretability—essential for building trust and auditing algorithmic decisions in sensitive, user-facing applications.
+Adaptive System Logic: Implemented a decision-making framework to automatically trigger the Voice-First mode when the predictive model outputted '1'. The logic includes activating user-centric features like local language support and error-tolerant interaction.
+Data Preparation & Validation: Demonstrated comprehensive data preprocessing skills, including handling categorical data, standardization, scaling, dataset splitting, and robust model evaluation using standard metrics (Precision, Recall, F1-score).
 
-# Problem Statement
-Many smallholder farmers, especially those with low literacy or low digital exposure, struggle to use mobile applications meant to help them with planting, crop health, and decision-making.
+# 💻 Technologies Used
+1. Python
+2. Machine Learning
+3. Scikit-learn (for Logistic Regression), Model Evaluation Tools
+4. Data Processing
+5. Pandas
+6. NumPy
+7. Interface Concept : Voice-First vs. Standard UI Simulation (Conceptual/Scripted)
+8. Environment : Jupyter Notebook / Python Script
 
-This system predicts when the UI should automatically switch to a voice-based mode, improving accessibility and reducing cognitive load.
+# 🚀 Setup and Installation
+1. Prerequisites : Python 3.x
+2. A dedicated virtual environment is recommended.
 
-# Features
-1. Simulated farmer dataset (500 samples)
-2. ML model to predict assistance needs
-3. Logistic Regression classifier
-4. Adaptive Interface Logic
-5. Voice-First vs Standard UI Simulation
-6. User Interaction Simulation Script
+# Running the Notebook
+1. Clone the repository.
+2. Install dependencies: pip install -r requirements.txt
+3. Open Jupyter Notebook: jupyter notebook
+4. Run the main analysis file: notebooks/Farmer Literacy Prediction.ipynb
 
-# Machine Learning Model
-The model uses features like:
-1. Age
-2. Literacy level
-3. Farming experience
-4. Tech exposure
-5. Error rate
-6. Task completion time
-7. Native language preference
-
-# Target output:
-1 → Farmer needs voice assistance  
-0 → Standard interface is enough  
-
-# Adaptive UI Logic
-
-If the model predicts 1, the system activates:
--Voice-first mode
--Slower speaking speed
--Local language support (e.g., Yoruba, Hausa, Igbo)
--Step-by-step guidance
--Error-tolerant interaction
--If 0, a fast standard UI is used.
-
-# Data Analysis Skills Demonstrated
-This project also highlights my data analysis and preprocessing abilities:
--Cleaning and structuring datasets
--Feature engineering for ML models
--Handling categorical and numerical data
--Exploratory Data Analysis (EDA) using Pandas, NumPy, and Matplotlib
--Evaluating model performance using confusion matrix, precision, recall, and F1-score
--Working with standardization, splitting datasets, and simulation
--These skills support my broader interest in AI, HCI, and applied data science.
-
-# Project Structure
-farmer-assistance-prediction-ml/
- ├── notebooks/
- │    └── Farmer Literacy Prediction.ipynb
- ├── README.md
- ├── requirements.txt
- └── .gitignore
-
-# ▶️ Running the Notebook
-Install dependencies:
-pip install -r requirements.txt
-Open Jupyter Notebook:
-jupyter notebook
-Then run:
-Farmer Literacy Prediction.ipynb
-
-# Future Work
-1. Add real-world farmer dataset
-2. Build mobile prototype with adaptive UI
-3. Integrate computer vision crop-analysis
-4. Deploy model as an API
-
-# Author
-Olayiwola Abdussomad
-B.Tech Computer Science, LAUTECH
-Research Focus: HCI + AI Accessibility
-
+# 🔑 Skills Demonstrated
+Human-Computer Interaction (HCI), Machine Learning, Feature Engineering, Interpretable AI, Data Preprocessing, Adaptive Systems Design, Python programming.
